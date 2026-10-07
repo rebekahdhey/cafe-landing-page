@@ -1,0 +1,68 @@
+import type { MenuItem } from "./types";
+
+export const menu: MenuItem[] = [
+  {
+    id: 1,
+    name: "Honey Oat Latte",
+    description: "Espresso, steamed oat milk, and a drizzle of honey.",
+    price: 5.25,
+    emoji: "☕",
+    category: "coffee",
+  },
+  {
+    id: 2,
+    name: "Cinnamon Cappuccino",
+    description: "Velvety foam with a warm dusting of cinnamon.",
+    price: 4.75,
+    emoji: "🫘",
+    category: "coffee",
+  },
+  {
+    id: 3,
+    name: "Vanilla Cold Brew",
+    description: "Slow-steeped for 18 hours, finished with vanilla.",
+    price: 5.0,
+    emoji: "🧊",
+    category: "coffee",
+  },
+  {
+    id: 4,
+    name: "Jasmine Green Tea",
+    description: "Delicate, floral, and gently sweet.",
+    price: 4.0,
+    emoji: "🍵",
+    category: "tea",
+  },
+  {
+    id: 5,
+    name: "Chai Hug",
+    description: "Spiced black tea simmered with steamed milk.",
+    price: 4.75,
+    emoji: "🫖",
+    category: "tea",
+  },
+  {
+    id: 6,
+    name: "Butter Croissant",
+    description: "Flaky, golden, and baked fresh every morning.",
+    price: 3.5,
+    emoji: "🥐",
+    category: "bakery",
+  },
+  {
+    id: 7,
+    name: "Brown Butter Cookie",
+    description: "Chewy in the middle, crisp at the edges.",
+    price: 2.75,
+    emoji: "🍪",
+    category: "bakery",
+  },
+  {
+    id: 8,
+    name: "Blueberry Muffin",
+    description: "Soft crumb, juicy berries, sugar-crunch top.",
+    price: 3.75,
+    emoji: "🧁",
+    category: "bakery",
+  },
+];
